@@ -1,0 +1,160 @@
+:root{
+  --font-family: "Poppins", sans-serif;
+  --font-size: 15px;
+  --font-size-14px: 14px;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray: #edeae3;
+  --font-weight-200: 200;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --line-height: 22px;
+  --letter-spacing: 0.3px;
+  --padding-5px: 5px;
+  --padding-top-30px: 30px;
+  --padding-50px: 50px;
+  --margin-bottom-0: 0;
+  --margin-bottom-10px: 10px;
+  --margin-4px: 4px;
+  --margin-0-8px: 0 8px;
+  --background-dark: #363d47;
+  --background-light: #ececec;
+  --text-transform-uppercase: uppercase;
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: var(--color-black);
+  line-height: var(--line-height);
+  
+}
+
+
+.homePage {
+  background: var(--background-light);
+  margin: 0 150px;
+
+}
+
+.page-wrapper{
+  background: #fff;
+  padding:var(--padding-50px);
+ 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-700);
+}
+
+.main {
+  padding-top: var(--padding-top-30px);
+}
+
+
+.header a, .header p, .exp-sec li, .summary, .web-link-sec ul li a, .courses-sec p, .courses-sec span {
+  font-weight: var(--font-weight-200);
+}
+
+p, h2 {
+  margin-bottom: var(--margin-bottom-0);
+}
+
+.user-info h2 {
+  font-weight: var(--font-weight-600);
+}
+
+.user-info p:first-of-type, .user-info span {
+  font-weight: var(--font-weight-600);
+}
+.user-info p{
+  font-size: var(--font-size-14px);
+
+}
+
+.user-details img {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  border: none;
+  object-fit: cover;
+}
+
+hr {
+  margin: var(--margin-4px) 0;
+  border: 1px solid var(--color-black);
+}
+
+.main h6, .project-sec h5, .hobby-sec h5 {
+  background: var(--color-gray);
+  color: var(--color-black);
+  font-weight: var(--font-weight-600);
+  padding: var(--padding-5px);
+  margin-bottom: var(--margin-bottom-0);
+  text-transform: var(--text-transform-uppercase);
+  font-family: var(--font-family);
+  letter-spacing: var(--letter-spacing);
+  font-size: var(--font-size);
+}
+
+.web-link-sec ul li a {
+  color: var(--color-black);
+  margin: var(--margin-0-8px);
+  font-size: 13px;
+}
+
+.skill-sec ul li span, .lang-sec ul li span {
+  font-weight: var(--font-weight-200);
+  margin: var(--margin-0-8px);
+}
+.exp-sec ul li, .summary, .skill-sec, .courses-sec, .project-sec p, .lang-sec ul li{
+  font-size: var(--font-size-14px);
+}
+.experience, .education {
+  background: var(--color-gray);
+  padding: var(--padding-5px);
+  letter-spacing: var(--letter-spacing);
+}
+
+.experience h5, .experience span, .education h5, .education span {
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+}
+
+
+.project-sec p {
+  font-weight: var(--font-weight-200);
+}
+
+.footer {
+  font-size: 9px;
+  font-weight:  var(--font-weight-200);
+}
+
+.main h6 {
+  background: var(--background-dark);
+  color: var(--color-white);
+}
+
+@media screen and (max-width:992px){
+  html{
+    overflow-x: hidden;
+  }
+.homePage {
+  margin: 0;
+}
+.page-wrapper{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.user-info {
+  overflow-y: hidden;
+}
+}
