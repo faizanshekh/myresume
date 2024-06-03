@@ -1,7 +1,7 @@
 :root{
   --font-family: "Poppins", sans-serif;
-  --font-size: 15px;
-  --font-size-14px: 14px;
+  --font-size: 14px;
+  --font-size-14px: 13px;
   --color-black: #000;
   --color-white: #fff;
   --color-gray: #edeae3;
@@ -37,14 +37,14 @@ body {
 
 
 .homePage {
-  background: var(--background-light);
-  margin: 0 150px;
+  background: var(--color-white);
+  /* margin: 0 150px; */
 
 }
 
 .page-wrapper{
   background: #fff;
-  padding:var(--padding-50px);
+  padding:var(--padding-50px) 0;
  
 }
 
@@ -147,13 +147,7 @@ hr {
   html{
     overflow-x: hidden;
   }
-.homePage {
-  margin: 0;
-}
-.page-wrapper{
-  padding-left: 0px;
-  padding-right: 0px;
-}
+
 .user-info {
   overflow-y: hidden;
 }
